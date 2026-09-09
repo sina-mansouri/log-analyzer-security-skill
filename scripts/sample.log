@@ -1,0 +1,13 @@
+Sep  9 10:01:01 webserver01 sshd[1234]: Failed password for invalid user admin from 203.0.113.55 port 51422 ssh2
+Sep  9 10:01:04 webserver01 sshd[1234]: Failed password for invalid user admin from 203.0.113.55 port 51423 ssh2
+Sep  9 10:01:07 webserver01 sshd[1234]: Failed password for root from 203.0.113.55 port 51424 ssh2
+Sep  9 10:01:10 webserver01 sshd[1234]: Failed password for invalid user test from 203.0.113.55 port 51425 ssh2
+Sep  9 10:01:13 webserver01 sshd[1234]: Failed password for invalid user oracle from 203.0.113.55 port 51426 ssh2
+Sep  9 10:01:16 webserver01 sshd[1234]: Failed password for invalid user postgres from 203.0.113.55 port 51427 ssh2
+Sep  9 10:05:00 webserver01 sshd[1235]: Accepted publickey for alex from 192.168.1.50 port 51500 ssh2
+Sep  9 10:10:00 webserver01 sudo: alex : authentication failure ; TTY=pts/0 ; PWD=/home/alex ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Sep  9 10:12:00 webserver01 systemd[1]: nginx.service: Failed with result 'exit-code'.
+Sep  9 10:12:01 webserver01 systemd[1]: Failed to start A high performance web server.
+Sep  9 10:15:00 webserver01 kernel: Out of memory: Kill process 4821 (grafana-server) score 812 or sacrifice child
+Sep  9 10:20:00 webserver01 kernel: EXT4-fs error (device sda1): ext4_find_entry:1455: inode #131: comm bash: reading directory lblock 0
+Sep  9 10:25:00 webserver01 CRON[999]: (root) CMD (/usr/bin/certbot renew --quiet)
